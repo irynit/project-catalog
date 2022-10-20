@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+.catalog {
+  max-width: 800px;
+}
+
+.catalog__container {
+  max-width: 400px;
+  margin: 20px auto 0 50px;
+  padding: 0;
+}
+
+.catalog__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.catalog__list-project, .catalog__list-project-sublist-project {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid black;
+}
+
+.catalog__list-project-img {
+  width: 25px;
+  margin-bottom: 10px;
+}
+
+.catalog__list-project-link {
+  align-content: center;
+  text-align: center;
+}
+
+.catalog__list-project-sublist {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
